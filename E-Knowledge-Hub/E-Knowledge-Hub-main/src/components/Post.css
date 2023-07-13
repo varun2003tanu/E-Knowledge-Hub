@@ -1,0 +1,35 @@
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abt{
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    height: fit-content;
+    background-color: #f2f2f2;
+}
+
+.img_of_post{
+    height: 50vh;
+    width: 40vw;
+}
+
+.para{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contributors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}

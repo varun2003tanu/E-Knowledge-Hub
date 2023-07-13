@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Source+Sans+Pro&display=swap');
+
+.body_of_home{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+}
+
+.mainp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.college_photo{
+    width: 100vw;
+    height: 45vh;
+}
+
+.coll_photo {
+    width: 70vw;
+}
+
+.right1 {
+    height: fit-content;
+    background-color: aqua;
+    width: 100vw;
+    min-width: 75vw;
+    position: sticky;
+}
+
+.down{
+    background-color: white;
+    height: 1000px;
+}
+
+.achieve{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}

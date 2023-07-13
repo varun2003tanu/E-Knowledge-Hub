@@ -1,0 +1,35 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #25242A;
+    min-width: min-content;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    position: sticky;
+}
+
+.logo_of_side_comps{
+    height: 40px;
+}
+
+.li_element{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.li_p{
+    margin-left: 10px;
+}
+
+.li_element:hover{
+    background-color: #0088a9;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Source+Sans+Pro&display=swap');
+
+.navbar{
+    display: flex;
+    z-index: 1;
+    position: sticky;
+    flex-direction: row;
+    height: fit-content;
+    min-width: fit-content;
+    width: 100vw;
+    background: #2f9ddc;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.logo_image{
+    height: 50px;
+    background-color: #24252A;
+}
+
+.logo_of_side_comps{
+}
+
+.li_element{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.li_p{
+    margin-left: 10px;
+}
+
+.li_element:hover{
+    background-color: #0088a9;
+}

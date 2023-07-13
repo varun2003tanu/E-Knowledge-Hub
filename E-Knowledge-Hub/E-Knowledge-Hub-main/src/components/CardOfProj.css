@@ -1,0 +1,26 @@
+.horizontal_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 80vw;
+    min-height: fit-content;
+    margin-top: 20px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.image_of_pro{
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.btn_of_h{
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #2f9ddc;
+    border: #2f9ddc;
+}

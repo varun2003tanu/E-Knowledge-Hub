@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Source+Sans+Pro&display=swap');
+
+.full{
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(#e66465, #9198e5);
+    position: fixed;
+}
+
+.card{
+    background-color: white;
+    width: 750px;
+    height: 500px;
+    display: flex;
+    margin-top: 120px;
+    flex-direction: row;
+    border-radius: 20px;
+    margin-left: 400px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wel {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.fp{
+    margin-left: 190px;
+    text-decoration: none;
+    color: rgb(133, 174, 210);
+}
+
+.log_ig{
+    margin-left: 50px;
+    margin-top: 150px;
+    height: 200px;
+}
+
+.enter {
+    width:300px;
+    background-color: #e2e2e2;
+    font-size: large;
+    height: 45px;
+    border-color: #e2e2e2;
+    border: #e2e2e2;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.with_google{
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #e2e2e2;
+    border: #e2e2e2;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.gg {
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.pi {
+    height: 200px;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.sign {
+    width: 310px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 20px;
+    border-color: rgb(215, 201, 215);
+    border: rgb(215, 201, 215);
+    background-color: rgb(215, 201, 215);
+}
+
+.f{
+    margin-left: 20px;
+}
+
+.t{
+    color:#ccc;
+}
+
+.left {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    min-width: 380px;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.right {
+    min-width: 370px;
+    height: 500px;
+    background-color: rgb(215, 201, 215);
+    border-radius: 200px 20px 20px 200px;
+}
